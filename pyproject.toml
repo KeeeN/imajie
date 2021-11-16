@@ -6,6 +6,8 @@ authors = ["Kenji Yamashita <y.kenji.b@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+fastapi = "^0.70.0"
+uvicorn = "^0.15.0"
 
 [tool.poetry.dev-dependencies]
 
