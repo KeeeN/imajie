@@ -1,0 +1,11 @@
+version: "3.4"
+
+services:
+  imajie:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8801:8801
+    volumes:
+      - ./app/:/code/app/
